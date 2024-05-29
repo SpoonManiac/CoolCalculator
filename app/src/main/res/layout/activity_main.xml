@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cool"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/border"
+        android:hint="@string/numero1"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/numero1"
+        android:hint="@string/numero2"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/valorSaida"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/border"
+        android:digits="10"
+        android:hint="@string/valorSaida"
+        android:layout_below="@+id/numero2"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        />
+
+    <Spinner
+        android:id="@+id/operadores"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/valorSaida"/>
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_below="@+id/valorSaida"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="190dp"
+        android:layout_centerHorizontal="true"
+        android:text="calcular"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calcular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:layout_margin="8dp"
+        android:text="Resetar"
+        android:textAllCaps="true" />
+
+</RelativeLayout>

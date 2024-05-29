@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoolCalculator</string>
+    <string name="cool">CoolCalculator 👾</string>
+    <string name="numero1">Digite o 1° número</string>
+    <string name="numero2">Digite o 2° número</string>
+    <string name="valorSaida">Reposta do cálculo</string>
+
+</resources>

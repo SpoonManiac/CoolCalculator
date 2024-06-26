@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="270dp"
         android:layout_height="50dp"
@@ -23,7 +24,7 @@
         android:layout_marginRight="8dp"
         android:background="@drawable/border"
         android:hint="@string/numero1"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:textAlignment="center"
         android:textSize="20sp" />
@@ -37,7 +38,7 @@
         android:background="@drawable/border"
         android:layout_below="@+id/numero1"
         android:hint="@string/numero2"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:padding="10dp"
         android:textAlignment="center"
         android:textSize="20sp" />
@@ -55,6 +56,8 @@
         android:padding="10dp"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:focusable="false"
+        android:clickable="false"
         />
 
     <Spinner
@@ -69,23 +72,32 @@
         android:id="@+id/calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="1dp"
         android:layout_below="@+id/valorSaida"
+        android:layout_marginLeft="150dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="190dp"
-        android:layout_centerHorizontal="true"
         android:text="calcular"
         android:textAllCaps="true" />
 
     <Button
         android:id="@+id/reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
         android:layout_below="@id/calcular"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"
-        android:layout_margin="8dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="8dp"
         android:text="Resetar"
         android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/mediaFinal"
+        android:layout_width="133dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="15dp"
+        android:text="Média Final"
+        android:backgroundTint="@color/dgreen"
+        android:textColor="@color/grey"/>
+
 
 </RelativeLayout>

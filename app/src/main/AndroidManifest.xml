@@ -13,6 +13,11 @@
         android:theme="@style/Theme.CoolCalculator"
         tools:targetApi="31">
         <activity
+            android:name=".MediaFinalActivity"
+            android:exported="false"
+            android:label="@string/title_activity_media_final"
+            android:theme="@style/Theme.CoolCalculator" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

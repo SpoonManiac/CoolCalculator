@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">CoolCalculator</string>
-    <string name="cool">CoolCalculator 👾</string>
+    <string name="app_name" translatable="false">CoolCalculator</string>
+    <string name="cool" translatable="false">CoolCalculator 👾</string>
     <string name="numero1">Digite o 1° número</string>
     <string name="numero2">Digite o 2° número</string>
-    <string name="valorSaida">Reposta do cálculo</string>
+    <string name="valorSaida">Resposta do cálculo</string>
+
+    <string name="intro">Cálculo da média final</string>
+    <string name="title_activity_media_final">MediaFinalActivity</string>
+    <string name="formula">FÓRMULA: (MAP x 0.3) + (PROVA|SUB x 0,4) + (PAI x 0,3) = (MF)</string>
+    <string name="map">MAP</string>
+    <string name="prova">Prova</string>
+    <string name="pai">PAI</string>
+    <string name="mediaFinal">Média Final</string>
 
 </resources>

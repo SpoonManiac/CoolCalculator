@@ -12,7 +12,7 @@
     </label>
 </h1>
 <h2 align="left"><ins> Descrição do projeto </ins></h2>
-<p>CoolCalculator é um aplicativo nativo Android de calculadora, com operações basicas e na segunda tela com o intuito de facilitar o cálculo da media final das matérias.</p>
+<p>CoolCalculator é um aplicativo nativo Android de calculadora, com operações basicas na primeira tela e na segunda com o intuito de facilitar o cálculo da media final das matérias.</p>
 <p>Projeto criado como forma de avaliação para a matéria de Desenvolvimento Mobile na Faculdade Impacta </p>
 
 <h2><ins>ScreenShots 📷</ins></h2>
